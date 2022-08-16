@@ -26,12 +26,6 @@ def on_open(ws):
 """
     ws.send(json_subscribe)
 
-def comprar():
-    pass
-
-def vender():
-    print("Você vendeu")
-
 def on_close(ws):
     print('FECHOU CONEXAO')
 
